@@ -1,0 +1,22 @@
+{
+  "name": "user-management",
+  "version": "0.0.1",
+  "description": "To register and manage users",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": "",
+  "dependencies": {
+    "cors": "^2.7.1",
+    "express": "^4.13.4",
+    "pg": "^4.4.6",
+    "http": "0.0.0",
+    "serve-static": "^1.10.2",
+    "socket.io": ">= 1.0.0"
+  },
+  "engines": {
+    "node": "5.0.0"
+  }
+}
